@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09b63aa9-bf1d-4556-a511-6be0c8c5f8ee" name="Default" comment="" />
+    <list default="true" id="09b63aa9-bf1d-4556-a511-6be0c8c5f8ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/KNPU_Symfony3_Collections.iml" afterPath="$PROJECT_DIR$/.idea/KNPU_Symfony3_Collections.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,22 +22,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="364">
-                <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>show</find>
+      <find>genus_sho</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/composer.json" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -32,12 +70,64 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -60,6 +150,32 @@
               <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="genus" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -69,7 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -95,31 +211,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518606017954</updated>
-      <workItem from="1518606020184" duration="1069000" />
+      <workItem from="1518606020184" duration="6025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1069000" />
+    <option name="totallyTimeSpent" value="6025000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="980" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3314154" sideWeight="0.50438595" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28653625" sideWeight="0.49561402" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -143,6 +269,241 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180214122805.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518607685968" expanded="false" signature="46:122" ph="..." />
+            <marker date="1518607685968" expanded="true" signature="127:187" ph=" Auto-generated Migration: Please modify to your needs! ..." />
+            <marker date="1518607685968" expanded="true" signature="243:1175" ph="{...}" />
+            <marker date="1518607685968" expanded="true" signature="253:288" ph=" @param Schema $schema ..." />
+            <marker date="1518607685968" expanded="true" signature="329:725" ph="{...}" />
+            <marker date="1518607685968" expanded="true" signature="584:632" ph="ALTER TABLE genus... " />
+            <marker date="1518607685968" expanded="true" signature="734:769" ph=" @param Schema $schema ..." />
+            <marker date="1518607685968" expanded="true" signature="812:1173" ph="{...}" />
+            <marker date="1518607685968" expanded="true" signature="1137:1164" ph="ALTER TABLE genus... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <marker date="1518613180111" expanded="true" signature="0:2689" ph="{&quot;name&quot;: &quot;knpuniversity/symfony&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="108:232" ph="{...}" />
+            <marker date="1518613180111" expanded="true" signature="127:161" ph="{&quot;&quot;: &quot;src/&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="254:322" ph="{...}" />
+            <marker date="1518613180111" expanded="true" signature="273:316" ph="{&quot;Tests\&quot;: &quot;tests/&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="339:968" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="989:1165" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="1182:2353" ph="{...}" />
+            <marker date="1518613180111" expanded="true" signature="1212:1765" ph="[...]" />
+            <marker date="1518613180111" expanded="true" signature="1794:2347" ph="[...]" />
+            <marker date="1518613180111" expanded="true" signature="2368:2687" ph="{&quot;symfony-app-dir&quot;: &quot;app&quot;...}" />
+            <marker date="1518613180111" expanded="true" signature="2622:2681" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <marker date="1518613281586" expanded="false" signature="11:100" ph="..." />
+            <marker date="1518613281586" expanded="true" signature="132:2011" ph="{...}" />
+            <marker date="1518613281586" expanded="true" signature="172:1549" ph="{...}" />
+            <marker date="1518613281586" expanded="true" signature="204:1013" ph="..." />
+            <marker date="1518613281586" expanded="true" signature="1093:1516" ph="..." />
+            <marker date="1518613281586" expanded="true" signature="1583:1619" ph="{...}" />
+            <marker date="1518613281586" expanded="true" signature="1654:1737" ph="{...}" />
+            <marker date="1518613281586" expanded="true" signature="1770:1827" ph="{...}" />
+            <marker date="1518613281586" expanded="true" signature="1904:2009" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <marker date="1518613308258" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+            <marker date="1518613308258" expanded="true" signature="27:41" ph="parameters.yml" />
+            <marker date="1518613308258" expanded="true" signature="62:74" ph="security.yml" />
+            <marker date="1518613308258" expanded="true" signature="95:107" ph="services.yml" />
+            <marker date="1518613308258" expanded="true" signature="302:356" ph="parameters: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="326:328" ph="en" />
+            <marker date="1518613308258" expanded="true" signature="345:356" ph="file_system" />
+            <marker date="1518613308258" expanded="true" signature="358:1144" ph="framework: &lt;14 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="397:441" ph="translator: {1 key}" />
+            <marker date="1518613308258" expanded="true" signature="416:439" ph="fallbacks: [1 item]" />
+            <marker date="1518613308258" expanded="true" signature="428:438" ph="%locale%" />
+            <marker date="1518613308258" expanded="true" signature="463:473" ph="%secret%" />
+            <marker date="1518613308258" expanded="true" signature="478:573" ph="router: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="504:542" ph="%kernel.r…outing.yml" />
+            <marker date="1518613308258" expanded="true" signature="624:669" ph="validation: {1 key}" />
+            <marker date="1518613308258" expanded="true" signature="663:667" ph="true" />
+            <marker date="1518613308258" expanded="true" signature="725:762" ph="templating: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="745:762" ph="engines: [1 item]" />
+            <marker date="1518613308258" expanded="true" signature="755:761" ph="twig" />
+            <marker date="1518613308258" expanded="true" signature="827:837" ph="%locale%" />
+            <marker date="1518613308258" expanded="true" signature="888:1076" ph="session: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1020:1076" ph="%kernel.r…vironment%" />
+            <marker date="1518613308258" expanded="true" signature="1126:1130" ph="true" />
+            <marker date="1518613308258" expanded="true" signature="1167:1389" ph="twig: &lt;4 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1195:1211" ph="%kernel.debug%" />
+            <marker date="1518613308258" expanded="true" signature="1234:1250" ph="%kernel.debug%" />
+            <marker date="1518613308258" expanded="true" signature="1255:1302" ph="number_format: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1299:1302" ph="," />
+            <marker date="1518613308258" expanded="true" signature="1307:1389" ph="form_themes: &lt;2 items&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1330:1358" ph="bootstrap….html.twig" />
+            <marker date="1518613308258" expanded="true" signature="1369:1389" ph="_formTheme.html.twig" />
+            <marker date="1518613308258" expanded="true" signature="1416:2135" ph="doctrine: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1430:1670" ph="dbal: &lt;7 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="1454:1463" ph="pdo_mysql" />
+            <marker date="1518613308258" expanded="true" signature="1482:1499" ph="%database_host%" />
+            <marker date="1518613308258" expanded="true" signature="1518:1535" ph="%database_port%" />
+            <marker date="1518613308258" expanded="true" signature="1554:1571" ph="%database_name%" />
+            <marker date="1518613308258" expanded="true" signature="1590:1607" ph="%database_user%" />
+            <marker date="1518613308258" expanded="true" signature="1626:1647" ph="%database_password%" />
+            <marker date="1518613308258" expanded="true" signature="1666:1670" ph="UTF8" />
+            <marker date="1518613308258" expanded="true" signature="1985:2135" ph="orm: &lt;3 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2027:2043" ph="%kernel.debug%" />
+            <marker date="1518613308258" expanded="true" signature="2069:2108" ph="doctrine.…underscore" />
+            <marker date="1518613308258" expanded="true" signature="2131:2135" ph="true" />
+            <marker date="1518613308258" expanded="true" signature="2137:2311" ph="doctrine_cache: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2157:2311" ph="providers: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2176:2311" ph="my_markdown_cache: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2213:2225" ph="%cache_type%" />
+            <marker date="1518613308258" expanded="true" signature="2238:2311" ph="file_system: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2278:2311" ph="%kernel.c…down_cache" />
+            <marker date="1518613308258" expanded="true" signature="2313:2418" ph="stof_doct…extensions: &lt;2 keys&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2359:2364" ph="en_US" />
+            <marker date="1518613308258" expanded="true" signature="2369:2418" ph="orm: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2382:2418" ph="default: &lt;1 key&gt;" />
+            <marker date="1518613308258" expanded="true" signature="2414:2418" ph="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Genus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <marker date="1518608249018" expanded="true" signature="40:211" ph="..." />
+            <marker date="1518608249018" expanded="true" signature="215:316" ph=" @ORM\Entity(repositoryClass=&quot;AppBundle\Repository\GenusRepository&quot;) ..." />
+            <marker date="1518608249018" expanded="true" signature="330:3176" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="340:440" ph=" @ORM\Id ..." />
+            <marker date="1518608249018" expanded="true" signature="468:534" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518608249018" expanded="true" signature="564:653" ph=" @Gedmo\Slug(fields={&quot;name&quot;}) ..." />
+            <marker date="1518608249018" expanded="true" signature="683:819" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518608249018" expanded="true" signature="854:992" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518608249018" expanded="true" signature="1030:1085" ph=" @ORM\Column(type=&quot;string&quot;, nullable=true) ..." />
+            <marker date="1518608249018" expanded="true" signature="1118:1159" ph=" @ORM\Column(type=&quot;boolean&quot;) ..." />
+            <marker date="1518608249018" expanded="true" signature="1203:1267" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518608249018" expanded="true" signature="1310:1426" ph=" @ORM\OneToMany(targetEntity=&quot;GenusNote&quot;, mappedBy=&quot;genus&quot;) ..." />
+            <marker date="1518608249018" expanded="true" signature="1483:1541" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="1570:1608" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="1639:1679" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="1715:1756" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="1765:1796" ph=" @return SubFamily ..." />
+            <marker date="1518608249018" expanded="true" signature="1833:1878" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="1941:1992" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2031:2079" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2131:2188" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2222:2265" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2307:2354" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2390:2458" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2508:2563" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2601:2648" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2657:2706" ph=" @return ArrayCollection|GenusNote[] ..." />
+            <marker date="1518608249018" expanded="true" signature="2739:2780" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2824:2877" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="2956:3023" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="3055:3095" ph="{...}" />
+            <marker date="1518608249018" expanded="true" signature="3131:3172" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1518613955833" expanded="true" signature="12:26" ph="base" />
+            <marker date="1518613955833" expanded="true" signature="32:811" ph="{% block body ...%}" />
+            <marker date="1518613955833" expanded="true" signature="87:795" ph="..." />
+            <marker date="1518613955833" expanded="true" signature="103:262" ph="..." />
+            <marker date="1518613955833" expanded="true" signature="120:245" ph="..." />
+            <marker date="1518613955833" expanded="true" signature="278:782" ph="..." />
+            <marker date="1518613955833" expanded="true" signature="292:766" ph="{% for genus in genuses ...%}" />
+            <marker date="1518613955833" expanded="true" signature="338:740" ph="..." />
+            <marker date="1518613955833" expanded="true" signature="363:599" ph="..." />
+            <marker date="1518613955833" expanded="false" signature="407:417" ph="/genus/{slug}" />
+            <marker date="1518613955833" expanded="true" signature="499:573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <marker date="1518613993169" expanded="false" signature="44:419" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="461:3278" ph="{...}" />
+            <marker date="1518613993169" expanded="true" signature="471:505" ph=" @Route(&quot;/genus/new&quot;) ..." />
+            <marker date="1518613993169" expanded="true" signature="539:1569" ph="{...}" />
+            <marker date="1518613993169" expanded="true" signature="638:657" ph="SubFamily" />
+            <marker date="1518613993169" expanded="true" signature="1368:1560" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="1477:1487" ph="/genus/{slug}" />
+            <marker date="1518613993169" expanded="true" signature="1578:1608" ph=" @Route(&quot;/genus&quot;) ..." />
+            <marker date="1518613993169" expanded="true" signature="1643:1922" ph="{...}" />
+            <marker date="1518613993169" expanded="true" signature="1740:1755" ph="Genus" />
+            <marker date="1518613993169" expanded="true" signature="1845:1914" ph="..." />
+            <marker date="1518613993169" expanded="false" signature="1846:1866" ph="genus/list" />
+            <marker date="1518613993169" expanded="true" signature="1870:1913" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="1931:1987" ph=" @Route(&quot;/genus/{slug}&quot;, name=&quot;genus_show&quot;) ..." />
+            <marker date="1518613993169" expanded="true" signature="2034:2617" ph="{...}" />
+            <marker date="1518613993169" expanded="true" signature="2266:2301" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="2348:2367" ph="GenusNote" />
+            <marker date="1518613993169" expanded="true" signature="2411:2417" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="2450:2609" ph="..." />
+            <marker date="1518613993169" expanded="false" signature="2451:2471" ph="genus/show" />
+            <marker date="1518613993169" expanded="true" signature="2480:2608" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="2626:2716" ph=" @Route(&quot;/genus/{slug}/notes&quot;, name=&quot;genus_show_notes&quot;) ..." />
+            <marker date="1518613993169" expanded="true" signature="2767:3276" ph="{...}" />
+            <marker date="1518613993169" expanded="true" signature="2843:3168" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="2868:3157" ph="..." />
+            <marker date="1518613993169" expanded="true" signature="3188:3227" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
