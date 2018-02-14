@@ -68,7 +68,7 @@ class Genus
     private $notes;
 
     /**
-     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\User")
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\User", inversedBy="studiedGenuses")
      * @ORM\JoinTable(name="genus_scientist")
      */
     private $genusScientists;
@@ -178,6 +178,14 @@ class Genus
         }
 
         $this->genusScientists[] = $user;
+    }
+
+    /**
+     * @return ArrayCollection|User[]
+     */
+    public function getGenusScientists()
+    {
+        return $this->genusScientists;
     }
 
 
