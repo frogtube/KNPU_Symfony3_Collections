@@ -67,9 +67,16 @@ class Genus
      */
     private $notes;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\User")
+     * @ORM\JoinTable(name="genus_scientist")
+     */
+    private $genusScientists;
+
     public function __construct()
     {
         $this->notes = new ArrayCollection();
+        $this->genusScientists = new ArrayCollection();
     }
 
     public function getId()
@@ -162,6 +169,15 @@ class Genus
     public function setSlug($slug)
     {
         $this->slug = $slug;
+    }
+
+    public function addGenusScientist(User $user)
+    {
+        if ($this->genusScientists->contains($user)){
+            return;
+        }
+
+        $this->genusScientists[] = $user;
     }
 
 
