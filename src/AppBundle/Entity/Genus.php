@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use AppBundle\Form\GenusScientistEmbededForm;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -69,7 +70,12 @@ class Genus
     private $notes;
 
     /**
-     * @ORM\OneToMany(targetEntity="AppBundle\Entity\GenusScientist", mappedBy="genus", fetch="EXTRA_LAZY")
+     * @ORM\OneToMany(
+     *     targetEntity="AppBundle\Entity\GenusScientist",
+     *     mappedBy="genus",
+     *     fetch="EXTRA_LAZY",
+     *     orphanRemoval=true
+     * )
      */
     private $genusScientists;
 
@@ -182,14 +188,15 @@ class Genus
         $user->addStudiedGenus($this);
     }
 
-    public function removeGenusScientist(User $user)
+    public function removeGenusScientist(GenusScientist $genusScientist)
     {
-        if (!$this->genusScientists->contains($user)) {
+        if (!$this->genusScientists->contains($genusScientist)) {
             return;
         }
 
-        $this->genusScientists->removeElement($user);
-        $user->removeStudiedGenus($this);
+        $this->genusScientists->removeElement($genusScientist);
+        // needed to update the owning side of the relationship
+        $genusScientist->setGenus(null);
     }
     /**
      * @return ArrayCollection|GenusScientist[]
