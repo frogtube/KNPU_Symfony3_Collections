@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="09b63aa9-bf1d-4556-a511-6be0c8c5f8ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <file leaf-file-name="GenusRepository.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="518">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,6 +39,7 @@
       <find>scien</find>
       <find>add</find>
       <find>remove</find>
+      <find>list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -52,13 +52,15 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
         <option value="$PROJECT_DIR$/app/DoctrineMigrations/Version20180214142415.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/user/show.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" />
       </list>
     </option>
   </component>
@@ -156,20 +158,28 @@
             <path>
               <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DataFixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KNPU_Symfony3_Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KNPU_Symfony3_Collections" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DataFixtures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ORM" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -207,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518606017954</updated>
-      <workItem from="1518606020184" duration="12998000" />
+      <workItem from="1518606020184" duration="14666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12998000" />
+    <option name="totallyTimeSpent" value="14666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,48 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <marker date="1518605986049" expanded="true" signature="0:282" ph="AppBundle…tity\Genus: &lt;1 key&gt;" />
-            <marker date="1518605986049" expanded="true" signature="28:282" ph="genus_{1..10}: &lt;6 keys&gt;" />
-            <marker date="1518605986049" expanded="true" signature="57:66" ph="&lt;genus()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="86:100" ph="@subfamily_*" />
-            <marker date="1518605986049" expanded="true" signature="123:151" ph="&lt;numberBe…, 100000)&gt;" />
-            <marker date="1518605986049" expanded="true" signature="169:181" ph="&lt;sentence()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="203:216" ph="&lt;boolean(75)&gt;" />
-            <marker date="1518605986049" expanded="true" signature="244:282" ph="&lt;dateTime…', 'now')&gt;" />
-            <marker date="1518605986049" expanded="true" signature="284:537" ph="AppBundle…\GenusNote: &lt;1 key&gt;" />
-            <marker date="1518605986049" expanded="true" signature="316:537" ph="genus.note_{1..100}: &lt;5 keys&gt;" />
-            <marker date="1518605986049" expanded="true" signature="355:367" ph="&lt;userName()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="396:426" ph="50%? lean… ryan.jpeg" />
-            <marker date="1518605986049" expanded="true" signature="441:454" ph="&lt;paragraph()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="474:511" ph="&lt;dateTime…', 'now')&gt;" />
-            <marker date="1518605986049" expanded="true" signature="527:537" ph="@genus_*" />
-            <marker date="1518605986049" expanded="true" signature="539:654" ph="AppBundle…\SubFamily: &lt;1 key&gt;" />
-            <marker date="1518605986049" expanded="true" signature="571:654" ph="subfamily_{1..10}: &lt;1 key&gt;" />
-            <marker date="1518605986049" expanded="true" signature="642:654" ph="&lt;lastName()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="656:1157" ph="AppBundle…ntity\User: &lt;2 keys&gt;" />
-            <marker date="1518605986049" expanded="true" signature="683:862" ph="user_{1..10}: &lt;4 keys&gt;" />
-            <marker date="1518605986049" expanded="true" signature="712:744" ph="weaverrya…@gmail.com" />
-            <marker date="1518605986049" expanded="true" signature="768:780" ph="iliketurtles" />
-            <marker date="1518605986049" expanded="true" signature="789:810" ph="roles: [1 item]" />
-            <marker date="1518605986049" expanded="true" signature="797:809" ph="ROLE_ADMIN" />
-            <marker date="1518605986049" expanded="true" signature="830:862" ph="&lt;imageUrl…bstract')&gt;" />
-            <marker date="1518605986049" expanded="true" signature="867:1157" ph="user.aqua…ut_{1..10}: &lt;7 keys&gt;" />
-            <marker date="1518605986049" expanded="true" signature="905:936" ph="aquanaut&lt;…xample.org" />
-            <marker date="1518605986049" expanded="true" signature="960:968" ph="aquanote" />
-            <marker date="1518605986049" expanded="true" signature="990:994" ph="true" />
-            <marker date="1518605986049" expanded="true" signature="1014:1027" ph="&lt;firstName()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="1046:1058" ph="&lt;lastName()&gt;" />
-            <marker date="1518605986049" expanded="true" signature="1083:1105" ph="&lt;company(…University" />
-            <marker date="1518605986049" expanded="true" signature="1125:1157" ph="&lt;imageUrl…bstract')&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DoctrineMigrations/Version20180214142415.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -448,26 +416,6 @@
             <marker date="1518615248204" expanded="true" signature="861:986" ph="ALTER TABLE genus_scientist... " />
             <marker date="1518615248204" expanded="true" signature="1013:1136" ph="ALTER TABLE genus_scientist... " />
             <marker date="1518615248204" expanded="true" signature="1489:1515" ph="DROP TABLE g... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1518613955833" expanded="true" signature="12:26" ph="base" />
-            <marker date="1518613955833" expanded="true" signature="32:811" ph="{% block body ...%}" />
-            <marker date="1518613955833" expanded="true" signature="87:795" ph="..." />
-            <marker date="1518613955833" expanded="true" signature="103:262" ph="..." />
-            <marker date="1518613955833" expanded="true" signature="120:245" ph="..." />
-            <marker date="1518613955833" expanded="true" signature="278:782" ph="..." />
-            <marker date="1518613955833" expanded="true" signature="292:766" ph="{% for genus in genuses ...%}" />
-            <marker date="1518613955833" expanded="true" signature="338:740" ph="..." />
-            <marker date="1518613955833" expanded="true" signature="363:599" ph="..." />
-            <marker date="1518613955833" expanded="false" signature="407:417" ph="/genus/{slug}" />
-            <marker date="1518613955833" expanded="true" signature="499:573" ph="..." />
           </folding>
         </state>
       </provider>
@@ -549,57 +497,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <marker date="1518625272808" expanded="true" signature="12:26" ph="base" />
+            <marker date="1518625272808" expanded="true" signature="32:85" ph="{% block title ...%}" />
+            <marker date="1518625272808" expanded="true" signature="87:1951" ph="{% block body ...%}" />
+            <marker date="1518625272808" expanded="true" signature="193:1897" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="269:1886" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="313:1871" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="745:1853" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="789:1831" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="815:1806" ph="{% for genusScientist in genus.genusScientists ...%}" />
+            <marker date="1518625272808" expanded="true" signature="938:1768" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="1100:1203" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="1249:1734" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="1953:3312" ph="{% block javascripts ...%}" />
+            <marker date="1518625272808" expanded="true" signature="2387:2613" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="2627:3296" ph="..." />
+            <marker date="1518625272808" expanded="true" signature="2671:3281" ph="{...}" />
+            <marker date="1518625272808" expanded="true" signature="2740:3269" ph="{...}" />
+            <marker date="1518625272808" expanded="true" signature="3042:3144" ph="{&quot;method&quot;: 'DELETE'...}" />
+            <marker date="1518625272808" expanded="true" signature="3162:3216" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/LoadFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518605986005" expanded="false" signature="50:198" ph="..." />
+            <marker date="1518605986005" expanded="true" signature="246:974" ph="{...}" />
+            <marker date="1518605986005" expanded="true" signature="297:481" ph="{...}" />
+            <marker date="1518605986005" expanded="true" signature="338:473" ph="..." />
+            <marker date="1518605986005" expanded="true" signature="411:463" ph="..." />
+            <marker date="1518605986005" expanded="true" signature="510:972" ph="{...}" />
+            <marker date="1518605986005" expanded="true" signature="536:896" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1518625830343" expanded="true" signature="0:329" ph="AppBundle…tity\Genus: &lt;1 key&gt;" />
+            <marker date="1518625830343" expanded="true" signature="28:329" ph="genus_{1..10}: &lt;7 keys&gt;" />
+            <marker date="1518625830343" expanded="true" signature="57:66" ph="&lt;genus()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="86:100" ph="@subfamily_*" />
+            <marker date="1518625830343" expanded="true" signature="123:151" ph="&lt;numberBe…, 100000)&gt;" />
+            <marker date="1518625830343" expanded="true" signature="169:181" ph="&lt;sentence()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="203:216" ph="&lt;boolean(75)&gt;" />
+            <marker date="1518625830343" expanded="true" signature="244:282" ph="&lt;dateTime…', 'now')&gt;" />
+            <marker date="1518625830343" expanded="true" signature="308:329" ph="3x @user.aquanaut_*" />
+            <marker date="1518625830343" expanded="true" signature="331:584" ph="AppBundle…\GenusNote: &lt;1 key&gt;" />
+            <marker date="1518625830343" expanded="true" signature="363:584" ph="genus.note_{1..100}: &lt;5 keys&gt;" />
+            <marker date="1518625830343" expanded="true" signature="402:414" ph="&lt;userName()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="443:473" ph="50%? lean… ryan.jpeg" />
+            <marker date="1518625830343" expanded="true" signature="488:501" ph="&lt;paragraph()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="521:558" ph="&lt;dateTime…', 'now')&gt;" />
+            <marker date="1518625830343" expanded="true" signature="574:584" ph="@genus_*" />
+            <marker date="1518625830343" expanded="true" signature="586:701" ph="AppBundle…\SubFamily: &lt;1 key&gt;" />
+            <marker date="1518625830343" expanded="true" signature="618:701" ph="subfamily_{1..10}: &lt;1 key&gt;" />
+            <marker date="1518625830343" expanded="true" signature="689:701" ph="&lt;lastName()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="703:1204" ph="AppBundle…ntity\User: &lt;2 keys&gt;" />
+            <marker date="1518625830343" expanded="true" signature="730:909" ph="user_{1..10}: &lt;4 keys&gt;" />
+            <marker date="1518625830343" expanded="true" signature="759:791" ph="weaverrya…@gmail.com" />
+            <marker date="1518625830343" expanded="true" signature="815:827" ph="iliketurtles" />
+            <marker date="1518625830343" expanded="true" signature="836:857" ph="roles: [1 item]" />
+            <marker date="1518625830343" expanded="true" signature="844:856" ph="ROLE_ADMIN" />
+            <marker date="1518625830343" expanded="true" signature="877:909" ph="&lt;imageUrl…bstract')&gt;" />
+            <marker date="1518625830343" expanded="true" signature="914:1204" ph="user.aqua…ut_{1..10}: &lt;7 keys&gt;" />
+            <marker date="1518625830343" expanded="true" signature="952:983" ph="aquanaut&lt;…xample.org" />
+            <marker date="1518625830343" expanded="true" signature="1007:1015" ph="aquanote" />
+            <marker date="1518625830343" expanded="true" signature="1037:1041" ph="true" />
+            <marker date="1518625830343" expanded="true" signature="1061:1074" ph="&lt;firstName()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="1093:1105" ph="&lt;lastName()&gt;" />
+            <marker date="1518625830343" expanded="true" signature="1130:1152" ph="&lt;company(…University" />
+            <marker date="1518625830343" expanded="true" signature="1172:1204" ph="&lt;imageUrl…bstract')&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <marker date="1518680402114" expanded="true" signature="12:26" ph="base" />
+            <marker date="1518680402114" expanded="true" signature="32:920" ph="{% block body ...%}" />
+            <marker date="1518680402114" expanded="true" signature="87:904" ph="..." />
+            <marker date="1518680402114" expanded="true" signature="103:307" ph="..." />
+            <marker date="1518680402114" expanded="true" signature="120:290" ph="..." />
+            <marker date="1518680402114" expanded="true" signature="323:891" ph="..." />
+            <marker date="1518680402114" expanded="true" signature="337:875" ph="{% for genus in genuses ...%}" />
+            <marker date="1518680402114" expanded="true" signature="383:849" ph="..." />
+            <marker date="1518680402114" expanded="true" signature="408:644" ph="..." />
+            <marker date="1518680402114" expanded="false" signature="452:462" ph="/genus/{slug}" />
+            <marker date="1518680402114" expanded="true" signature="544:618" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Genus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="182" column="26" lean-forward="false" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
           <folding>
-            <marker date="1518624406951" expanded="true" signature="40:211" ph="..." />
-            <marker date="1518624406951" expanded="true" signature="215:316" ph=" @ORM\Entity(repositoryClass=&quot;AppBundle\Repository\GenusRepository&quot;) ..." />
-            <marker date="1518624406951" expanded="true" signature="330:3871" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="340:440" ph=" @ORM\Id ..." />
-            <marker date="1518624406951" expanded="true" signature="468:534" ph=" @Assert\NotBlank() ..." />
-            <marker date="1518624406951" expanded="true" signature="564:653" ph=" @Gedmo\Slug(fields={&quot;name&quot;}) ..." />
-            <marker date="1518624406951" expanded="true" signature="683:819" ph=" @Assert\NotBlank() ..." />
-            <marker date="1518624406951" expanded="true" signature="854:992" ph=" @Assert\NotBlank() ..." />
-            <marker date="1518624406951" expanded="true" signature="1030:1085" ph=" @ORM\Column(type=&quot;string&quot;, nullable=true) ..." />
-            <marker date="1518624406951" expanded="true" signature="1118:1159" ph=" @ORM\Column(type=&quot;boolean&quot;) ..." />
-            <marker date="1518624406951" expanded="true" signature="1203:1267" ph=" @Assert\NotBlank() ..." />
-            <marker date="1518624406951" expanded="true" signature="1310:1426" ph=" @ORM\OneToMany(targetEntity=&quot;GenusNote&quot;, mappedBy=&quot;genus&quot;) ..." />
-            <marker date="1518624406951" expanded="true" signature="1457:1599" ph=" @ORM\ManyToMany(targetEntity=&quot;AppBundle\Entity\User&quot;, inversedBy=&quot;studiedGenuses&quot;) ..." />
-            <marker date="1518624406951" expanded="true" signature="1666:1780" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="1809:1847" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="1878:1918" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="1954:1995" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2004:2035" ph=" @return SubFamily ..." />
-            <marker date="1518624406951" expanded="true" signature="2072:2117" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2180:2231" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2270:2318" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2370:2427" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2461:2504" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2546:2593" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2629:2697" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2747:2802" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2840:2887" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="2896:2945" ph=" @return ArrayCollection|GenusNote[] ..." />
-            <marker date="1518624406951" expanded="true" signature="2978:3019" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3063:3116" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3195:3262" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3294:3334" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3370:3411" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3462:3601" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3522:3551" ph="..." />
-            <marker date="1518624406951" expanded="true" signature="3655:3721" ph="{...}" />
-            <marker date="1518624406951" expanded="true" signature="3729:3773" ph=" @return ArrayCollection|User[] ..." />
-            <marker date="1518624406951" expanded="true" signature="3816:3867" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="40:211" ph="..." />
+            <marker date="1518680659676" expanded="true" signature="215:316" ph=" @ORM\Entity(repositoryClass=&quot;AppBundle\Repository\GenusRepository&quot;) ..." />
+            <marker date="1518680659676" expanded="true" signature="330:3891" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="340:440" ph=" @ORM\Id ..." />
+            <marker date="1518680659676" expanded="true" signature="468:534" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518680659676" expanded="true" signature="564:653" ph=" @Gedmo\Slug(fields={&quot;name&quot;}) ..." />
+            <marker date="1518680659676" expanded="true" signature="683:819" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518680659676" expanded="true" signature="854:992" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518680659676" expanded="true" signature="1030:1085" ph=" @ORM\Column(type=&quot;string&quot;, nullable=true) ..." />
+            <marker date="1518680659676" expanded="true" signature="1118:1159" ph=" @ORM\Column(type=&quot;boolean&quot;) ..." />
+            <marker date="1518680659676" expanded="true" signature="1203:1267" ph=" @Assert\NotBlank() ..." />
+            <marker date="1518680659676" expanded="true" signature="1310:1426" ph=" @ORM\OneToMany(targetEntity=&quot;GenusNote&quot;, mappedBy=&quot;genus&quot;) ..." />
+            <marker date="1518680659676" expanded="true" signature="1457:1619" ph=" @ORM\ManyToMany(targetEntity=&quot;AppBundle\Entity\User&quot;, inversedBy=&quot;studiedGenuses&quot;, fetch=&quot;EXTRA_LAZY&quot;) ..." />
+            <marker date="1518680659676" expanded="true" signature="1686:1800" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="1829:1867" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="1898:1938" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="1974:2015" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2024:2055" ph=" @return SubFamily ..." />
+            <marker date="1518680659676" expanded="true" signature="2092:2137" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2200:2251" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2290:2338" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2390:2447" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2481:2524" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2566:2613" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2649:2717" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2767:2822" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2860:2907" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="2916:2965" ph=" @return ArrayCollection|GenusNote[] ..." />
+            <marker date="1518680659676" expanded="true" signature="2998:3039" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3083:3136" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3215:3282" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3314:3354" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3390:3431" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3482:3621" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3542:3571" ph="..." />
+            <marker date="1518680659676" expanded="true" signature="3675:3741" ph="{...}" />
+            <marker date="1518680659676" expanded="true" signature="3749:3793" ph=" @return ArrayCollection|User[] ..." />
+            <marker date="1518680659676" expanded="true" signature="3836:3887" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
             <marker date="1518624848113" expanded="false" signature="44:419" ph="..." />
             <marker date="1518624848113" expanded="true" signature="461:4236" ph="{...}" />
@@ -641,13 +696,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="78" column="24" lean-forward="true" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
+        <state relative-caret-position="518">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
