@@ -178,11 +178,18 @@ class Genus
         }
 
         $this->genusScientists[] = $user;
+        // Not required for persistence
+        $user->addStudiedGenus($this);
     }
 
     public function removeGenusScientist(User $user)
     {
+        if (!$this->genusScientists->contains($user)) {
+            return;
+        }
+
         $this->genusScientists->removeElement($user);
+        $user->removeStudiedGenus($this);
     }
     /**
      * @return ArrayCollection|User[]
