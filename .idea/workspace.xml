@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09b63aa9-bf1d-4556-a511-6be0c8c5f8ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" afterPath="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/fixtures.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" afterPath="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GenusRepository.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php">
+      <file leaf-file-name="GenusFormType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="540">
+              <caret line="51" column="66" lean-forward="false" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -61,6 +60,9 @@
         <option value="$PROJECT_DIR$/app/Resources/views/genus/list.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Genus.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php" />
       </list>
     </option>
   </component>
@@ -217,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518606017954</updated>
-      <workItem from="1518606020184" duration="14666000" />
+      <workItem from="1518606020184" duration="15835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14666000" />
+    <option name="totallyTimeSpent" value="15835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,8 +700,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="284">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <marker date="1518680824371" expanded="false" signature="44:102" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="150:688" ph="{...}" />
+            <marker date="1518680824371" expanded="true" signature="160:189" ph=" @return Genus[] ..." />
+            <marker date="1518680824371" expanded="true" signature="253:686" ph="{...}" />
+            <marker date="1518680824371" expanded="true" signature="333:367" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="396:415" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="440:467" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="491:521" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="546:587" ph="..." />
+            <marker date="1518680824371" expanded="true" signature="613:629" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/Admin/GenusAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518605985828" expanded="false" signature="50:334" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="339:409" ph=" @Security(&quot;is_granted('ROLE_MANAGE_GENUS')&quot;) ..." />
+            <marker date="1518605985828" expanded="true" signature="457:2435" ph="{...}" />
+            <marker date="1518605985828" expanded="true" signature="467:522" ph=" @Route(&quot;/genus&quot;, name=&quot;admin_genus_list&quot;) ..." />
+            <marker date="1518605985828" expanded="true" signature="558:795" ph="{...}" />
+            <marker date="1518605985828" expanded="true" signature="633:650" ph="..." />
+            <marker date="1518605985828" expanded="false" signature="634:649" ph="Genus" />
+            <marker date="1518605985828" expanded="true" signature="707:787" ph="..." />
+            <marker date="1518605985828" expanded="false" signature="708:734" ph="admin/genus/list" />
+            <marker date="1518605985828" expanded="true" signature="743:786" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="804:862" ph=" @Route(&quot;/genus/new&quot;, name=&quot;admin_genus_new&quot;) ..." />
+            <marker date="1518605985828" expanded="true" signature="912:1618" ph="{...}" />
+            <marker date="1518605985828" expanded="true" signature="1109:1491" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="1293:1416" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="1523:1610" ph="..." />
+            <marker date="1518605985828" expanded="false" signature="1524:1549" ph="admin/genus/new" />
+            <marker date="1518605985828" expanded="true" signature="1553:1609" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="1627:1692" ph=" @Route(&quot;/genus/{id}/edit&quot;, name=&quot;admin_genus_edit&quot;) ..." />
+            <marker date="1518605985828" expanded="true" signature="1757:2433" ph="{...}" />
+            <marker date="1518605985828" expanded="true" signature="1962:2305" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="2219:2294" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="2240:2293" ph="..." />
+            <marker date="1518605985828" expanded="true" signature="2337:2425" ph="..." />
+            <marker date="1518605985828" expanded="false" signature="2338:2364" ph="admin/genus/edit" />
+            <marker date="1518605985828" expanded="true" signature="2368:2424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/genus/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <marker date="1518681877849" expanded="true" signature="121:346" ph="{...}" />
+            <marker date="1518681877849" expanded="true" signature="175:343" ph="{...}" />
+            <marker date="1518681877849" expanded="true" signature="254:287" ph="..." />
+            <marker date="1518681877849" expanded="true" signature="316:335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/GenusFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="51" column="66" lean-forward="false" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
           <folding />
         </state>
       </provider>
